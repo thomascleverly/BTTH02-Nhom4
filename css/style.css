@@ -85,7 +85,7 @@
 #main-menu > li:hover > .sub-menu{
     width: 218px;
     padding: 15px 10px 5px 5px;
-    display: block;
+    display: inline-block;
     position: absolute;
     top: 25px;
     left: 10px;
@@ -114,7 +114,7 @@
 
 #main-menu .last-option:hover .child-menu{
     padding: 18px 10px 5px 5px;
-    display: block;
+    display: inline-block;
     position: absolute;
     top: 77px;
     right: -100%;
