@@ -1,0 +1,681 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    font-family: 'Archivo', sans-serif;
+}
+/* Header */
+#header{
+    background-color: #FFF;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    box-shadow: 0 10px #888888;
+}
+
+#header-inner{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+#header-inner .logo{
+    width: 25%;
+    height: 100%;
+    padding: 10px 10px 10px 40px;
+    align-items: center;
+}
+
+.logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#header-inner #nav{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#main-menu{
+    display: flex;
+    align-items: center;
+}
+
+#main-menu > li{
+    position: relative;
+    margin-left: -15px;
+    padding: 0 20px 0 20px;
+}
+
+#main-menu > li > a{
+    color: #000;
+    font-size: 15px;
+    line-height: 19.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #f5eeee;
+}
+
+#main-menu > li:hover > a,
+#main-menu > li > a.first-options,
+#main-menu .last-option:hover .child-menu,
+#main-menu > li:hover .sub-menu > li:hover > a,
+#main-menu > li:hover .sub-menu .child-menu li:hover > a,  #main-menu > li:hover .sub-menu li a.activeLink ,#main-menu > li > a.activeLink{
+    color: #0B249E;
+}
+
+.fa-angle-down{
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+#main-menu .sub-menu,
+#main-menu .last-option .child-menu{
+    display: none;
+}
+
+#main-menu > li:hover > .sub-menu{
+    width: 218px;
+    padding: 15px 10px 5px 5px;
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    background-color: #F4F4F4;
+    border: 1px solid #DADADA;
+    box-shadow: 1px 2px 2px #888888;
+    border-radius: 2px;
+}
+
+#main-menu > li:hover .sub-menu .first-options{
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 0.1px solid #707073;
+}
+
+#main-menu > li:hover .sub-menu .last-option{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#main-menu > li:hover .sub-menu li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+#main-menu .last-option:hover .child-menu{
+    padding: 18px 10px 5px 5px;
+    display: block;
+    position: absolute;
+    top: 77px;
+    right: -100%;
+    background-color: #F4F4F4;
+    width: 218px;
+    box-shadow: 1px 2px 2px #888888;
+    border-radius: 2px;
+}
+
+#main-menu > li:hover .sub-menu .first-child{
+    padding-bottom: 17px;
+}
+
+.sub-icon{
+    float: right;
+}
+/* Slider main */
+#slider{
+    margin-top: 0;
+    height: 1000px;
+}
+#slider .slide img{
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+
+}
+  
+
+.slide1 img{
+    width: 20%;
+    height: 30%;
+}
+
+#slider .content p{
+    text-align: left;
+    color: #000;
+    font: 15px Arial, Helvetica, sans-seifif;
+    padding: 25px 0 0 0;
+    
+}
+.content li {
+    margin-bottom:20px;
+}
+.slide1 img {
+    width: 27%;
+    height: 30%;
+    margin-left: 10%;
+} 
+.contentFeatures p {
+    
+    font-family:   sans-serif !important;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.contentFeatures img {
+    max-width: 450px;
+    display: block;
+    margin: 0 auto;
+}
+/* Why should u lear prg */
+article h1{
+    text-align: center;
+    padding: 15px 0;
+    color: #000;
+    font-size: 27px;
+    font-weight: bold;
+}
+article .new_list .new_item{
+    width: 300px;
+    height: 250px;
+    padding: 1%;
+    /* float: left; */
+    border: 2px solid #0B249E;
+    border-radius: 10px;
+    margin: 0 auto;
+    /* margin-left: 9%; */
+    /* margin-top: 70px; */
+} 
+article .new_list .new_item img{
+    max-width: 100%;
+    max-height: 100%;
+    text-align: left;
+    margin: 0 auto;
+    display: block;
+}
+.new_item a {
+    max-width: 80%;
+    font-size:15px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+article .new_list .new_item p{
+    color: #0B249E;
+    margin: 10px 10px 10px 40px;
+    font: 16px Arial, Helvetica, sans-seifif;
+    font-weight: bolder;
+}
+article .new_list .new_item .cnt{
+    color: #000;
+    margin: 10px 10px 10px 15px;
+    font: 16px Arial, Helvetica, sans-seifif;
+    width: 270px;
+    margin-left: -5px;
+    margin-top: 25px;
+}
+/* after course u have */
+article h2{
+    text-align: center;
+    color: #FFF;
+    font-family: "Arial", Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 auto 30px; 
+}
+.aftercourse {
+    background:linear-gradient(180deg, #0A2E9E 0%, #780BBD 100%);
+}
+.titleContainer {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 10px;
+}
+.second_item {
+    padding:  5px;
+    background-color: #fff;
+}
+.second_item img{
+    height: 100%;
+    width: 100%; 
+} 
+.second_item p {
+    font-size: 15px;
+    margin: 10px 0 0 0;
+    max-width: 90%;
+    text-align: center;
+    margin: 10px auto;
+    transition: all 0.2s ease-in-out;
+}
+.second_item p:hover {
+    color: #0B249E;
+}
+.buttonContainer {
+    font-family: "Bai Jamjuree", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    fill: #fff;
+    color: #fff;
+    background-color: #05A14100;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #fff;
+    padding: 10px 10px 10px 20px;
+    text-decoration: none;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+    cursor: pointer;
+    transition: all 0.2s ease
+}
+.buttonContainer:hover {
+    background-color: #ff7b06;
+    color: #fff;
+    border-color: #fff;
+}
+/* subject course */
+article h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Arial", Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 auto 30px; 
+}
+.titleContainer {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 10px;
+}
+.third_item {
+    padding:  5px;
+    background-color: rgb(255, 251, 251);
+    margin: 0px 10px 0px 10px;
+    padding: 4% 4% 4% 4%;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #E1E0E0;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 0%);
+}
+.third_item img{
+    height: 100%;
+    width: 100%;
+} 
+.third_item p {
+    font-size: 15px;
+    margin: 10px 0 0 0;
+    max-width: 90%;
+    text-align: center;
+    margin: 10px auto;
+    color: #000;
+}
+/* sign up */
+.sign_up {
+    background-color: #0A2E9E;
+    height: 613px;
+    width: 1517px;
+}
+.sign_up_form{
+    padding: 0px 50px 0px 30px;
+}
+.sign_up_form h1{
+    color: #FFFD09;
+    font-family: "Arial", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2em; 
+}
+.sign_up_form h2{
+    color: #F4F4F4;
+    font-family: "Arial", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.sign_up_form input{
+    color: #000;
+    width: 494px;
+    height: 42px;
+    font-size: 16px;
+    font-family: "Arial", Sans-serif;
+    font-weight: 500;
+    padding: auto;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    padding-left: 15px;
+}
+.sign_up_form select{
+    width: 494px;
+    height: 42px;
+    font-size: 16px;
+    font-family: "Arial", Sans-serif;
+    font-weight: 500;
+    padding: auto;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    padding-left: 10px;
+    color: #000000;
+    /* background-color: #ebe7e7;
+    border: none;
+    width: 82%;
+    height: 40px;
+    margin: 7px 0; */
+ }
+ .sign_up_form select option{
+   background-color: #ffffff;
+    color: #333333;
+    padding: 5px 8px;
+    user-select: none;
+    display: block;
+    padding: 20px 0;
+    border: 0;
+    list-style: none;
+    zoom: 1.3;
+    /* background-color: #ebe7e7;
+    border: solid 1px black;
+    height: 40px;
+    margin: 7px 0;
+    zoom: 1.5;
+    padding: 10px 0; */
+ }
+ .sign_up_form button {
+    background-color: #edb017;
+    color: #000;
+    width: 494px;
+    height: 42px;
+    font-size: 16px;
+    font-family: "Arial", Sans-serif;
+    font-weight: 700;
+    padding: auto;
+    margin-left: 30px;
+    padding-left: 15px;
+    border:0px solid #0A2E9E;
+    border-radius: 5px;
+}
+.sign_up_form button:hover {
+    background-color: #008FCA;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+::placeholder{   
+    color: #333;
+}
+/* source contents */
+ article .source_contents{
+    background-color: rgb(238,238,238);
+    padding: 5% 0% 7% 0%;
+}
+.source_contents h1{
+    color: #F4F4F4;
+    font-family: "Arial", Helvetica, Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.source_contents img{
+    width: 65%;
+    height: 65%;
+    margin-left: 25%;
+}
+.source_contents .content p{
+    font: 16px Arial, Helvetica, sans-seifif;
+    padding: 20px 0 10px 0;
+    font-weight: lighter;
+}
+.contentFormRight p {
+    
+    font-family:   sans-serif !important;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 2rem;
+    font-weight: lighter;
+}
+.contentFormRight svg {
+    margin-right: 20px;
+}
+
+.source_contents .content li{
+    margin-bottom: 35px; 
+    font-family:   sans-serif !important;
+}
+.source_contents .content ul{
+    margin-top: 35px;
+    margin-bottom: 1rem;
+}
+/* /* Tuition(học phí)  */
+.tuitions p{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: start;
+    margin-left: 30px;
+}
+.object_tuitions{
+    position: relative;
+    display: flex;
+}
+.tuitions li{
+    text-align: start;
+    position: relative;
+    z-index: 1;
+    margin-left: 90px;
+}
+.object_tuitions>div{
+    position: absolute;
+    z-index: 2;
+
+}
+.cover{
+    width: 300px;
+    height: 67px;
+    margin-left: 40px;
+}
+.object_tuitions > div > .cover{
+    transform: 0;
+    transition: transform 0.5s ease-out;
+}
+ .tuitions:active >.object_tuitions > div > .cover{
+    transform: translateY(66px);
+}
+/* End */
+#partners{
+    position: relative;
+    height: 386px;
+    width: 100%;
+    padding: 2.5% 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0px 1px 1px #888888;
+
+}
+
+#partners .partners-box{
+    height: 90%;
+    width: 90%;
+    margin: auto auto;
+}
+
+#partners .partners-box .text{
+    height: 10%;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#partners .partners-box .img-box{
+    height: 90%;
+    width: 100%;
+}
+
+#partners .partners-box .img-box img{
+    height: auto;
+    width: 242px;
+    float: left;
+    margin: 31px 14px;
+}
+
+#partners .partners-box .img-box .img-1,
+#partners .partners-box .img-box .img-4,
+#partners .partners-box .img-box .img-5{
+    margin-top: 90px;
+}
+
+#partners .fa-chevron-left{
+    font-size: 30px;
+    position: absolute;
+    color: #000;
+    top: 45%;
+    left: 4%;
+}
+
+#partners .fa-chevron-right{
+    font-size: 30px;
+    position: absolute;
+    color: #000;
+    top: 45%;
+    right: 4%;
+}
+
+#partners .fa-chevron-left:hover{
+    font-size: 30px;
+    position: absolute;
+    color: #000;
+    top: 45%;
+    left: 4%;
+    opacity: 0.6;
+}
+
+#partners .fa-chevron-right:hover{
+    font-size: 30px;
+    position: absolute;
+    color: #000;
+    top: 45%;
+    right: 4%;
+    opacity: 0.6;
+}
+
+#footer{
+    position: relative;
+    height: 490px;
+    width: 100%;
+    background-color: #2F319E;
+    padding: 60px 0 50px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer .footer-box{
+    height: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#footer .footer-box .box{
+    color: #FFF;
+    height: 360px;
+    width: 500px;
+    padding: 0px 50px 50px 50px;
+}
+
+/* #footer .footer-box .course{
+    background-color: lightblue;
+}
+
+#footer .footer-box .contact{
+    background-color: palegoldenrod;
+}
+
+#footer .footer-box .regis{
+    background-color: lightsalmon;
+} */
+
+#footer .footer-box .box span{
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    margin: 0 5px 10px 5px;
+    cursor: pointer;
+}
+
+#footer .footer-box .box span i{
+    padding-left: 50px;
+    margin-top: 3px;
+}
+
+
+#footer .footer-box .box > h2{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+#footer .footer-box .box .form{
+    height: 40px;
+    width: 340px;
+}
+
+#footer .footer-box .course iframe{
+    width: 375px;
+    height: 100px;
+    padding: 30px 0 0 50px;
+    cursor: pointer;
+}
+
+#footer .footer-box .regis input{
+    padding: 5px;
+    border: 1px solid #707073;
+    margin: 10px;
+}
+
+#footer .footer-box .contact span{
+    margin: 20px;
+}
+
+#footer .footer-box .regis-btn{
+    color: #000;
+    height: 44px;
+    width: 340px;
+    background-color: #EDB017;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 44px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px 0 0 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#footer .footer-box .regis-btn:hover{
+    color: #000;
+    height: 44px;
+    width: 340px;
+    background-color: #008FC4;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 44px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px 0 0 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
