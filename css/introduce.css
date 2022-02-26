@@ -1,9 +1,9 @@
 /* Reset CSS */
- *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
 
 #main{
     font-family: 'Archivo', sans-serif;
@@ -16,6 +16,7 @@
     display: flex;
     justify-content: center;
     list-style-type: none;
+    box-shadow: 0 1px #888888;
 }
 
 #header-inner{
@@ -46,18 +47,20 @@
 #main-menu{
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 
 #main-menu > li{
     position: relative;
     margin-left: -15px;
+    margin-right: 10px;
     padding: 0 20px 0 20px;
 }
 
 #main-menu > li > a{
     color: #000;
     font-size: 15px;
-    line-height: 50px;
+    line-height: 30px;
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 1px 1px #f5eeee;
@@ -83,10 +86,10 @@
 
 #main-menu > li:hover > .sub-menu{
     width: 218px;
-    padding: 15px 10px 5px 5px;
+    padding: 15px 10px 0px 5px;
     display: block;
     position: absolute;
-    top: 25px;
+    top: 30px;
     left: 10px;
     background-color: #F4F4F4;
     border: 1px solid #DADADA;
@@ -105,17 +108,18 @@
     margin-bottom: 10px;
 }
 
-#main-menu > li:hover .sub-menu li a{
+#main-menu > li:hover .sub-menu li > a{
     font-size: 14px;
     text-decoration: none;
     color: black;
+    line-height: 20px;
 }
 
 #main-menu .last-option:hover .child-menu{
-    padding: 18px 10px 5px 5px;
+    padding: 10px 10px 0px 5px;
     display: block;
     position: absolute;
-    top: 77px;
+    top: 82px;
     right: -100%;
     background-color: #F4F4F4;
     width: 218px;
@@ -134,7 +138,7 @@
 #center{
     width: 1200px;
     height: 5312.36px;
-    display: flex;
+    /* display: flex; */
 	flex-direction: column;
 	justify-content: center;
 	padding: 10px;
