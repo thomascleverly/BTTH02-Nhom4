@@ -8,7 +8,7 @@
 #main{
     font-family: 'Archivo', sans-serif;
 }
-
+/* Header */
 #header{
     background-color: #FFF;
     width: 100%;
@@ -47,25 +47,22 @@
 #main-menu{
     display: flex;
     align-items: center;
-    z-index: 1;
 }
 
 #main-menu > li{
     position: relative;
     margin-left: -15px;
-    margin-right: 10px;
     padding: 0 20px 0 20px;
 }
 
 #main-menu > li > a{
     color: #000;
     font-size: 15px;
-    line-height: 30px;
+    line-height: 19.5px;
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 1px 1px #f5eeee;
 }
-
 #main-menu > li:hover > a,
 #main-menu > li > a.active,
 #main-menu .last-option:hover .child-menu,
