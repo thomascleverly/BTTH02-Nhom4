@@ -67,7 +67,7 @@
 }
 
 #main-menu > li:hover > a,
-#main-menu > li > a.active,
+#main-menu li a.active,
 #main-menu .last-option:hover .child-menu,
 #main-menu > li:hover .sub-menu > li:hover > a,
 #main-menu > li:hover .sub-menu .child-menu li:hover > a{
@@ -356,7 +356,7 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 22.4px;
-    height: 1500px;
+    height: 1195px;
 }
 #relate .card{
     display: flex;
