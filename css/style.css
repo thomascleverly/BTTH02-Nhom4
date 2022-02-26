@@ -87,7 +87,7 @@
     padding: 15px 10px 0px 5px;
     display: block;
     position: absolute;
-    top: 30px;
+    top: 25px;
     left: 10px;
     background-color: #F4F4F4;
     border: 1px solid #DADADA;
@@ -114,10 +114,10 @@
 }
 
 #main-menu .last-option:hover .child-menu{
-    padding: 10px 10px 0px 5px;
+    padding: 18px 10px 5px 5px;
     display: block;
     position: absolute;
-    top: 82px;
+    top: 77px;
     right: -100%;
     background-color: #F4F4F4;
     width: 218px;
@@ -418,7 +418,7 @@
 
 #slogan-form{
     height: 410px;
-    width: 100%;
+    width: 110%;
     padding-top: 100px;
     box-sizing: border-box;
 }
@@ -645,7 +645,7 @@
 #reason{
     color: #FFF;
     height: 1015px;
-    max-width: 100%;
+    width: 100%;
     text-align: center;
     padding-top: 5%;
     font-family: Arial, Helvetica, sans-serif;
@@ -684,7 +684,7 @@
 #reason .reason-items{
     position: relative;
     height: 168px;
-    width: 533px;
+    width: 505px;
     border: 1px solid #FFF;
     border-radius: 6px;
     float: left;
@@ -802,7 +802,7 @@
     height: 200px;
     width: 340px;
     float: left;
-    margin: 13px;
+    margin: 6px;
     border: 1px solid #FFF;
     padding-bottom: 120px;
     box-sizing: content-box;
